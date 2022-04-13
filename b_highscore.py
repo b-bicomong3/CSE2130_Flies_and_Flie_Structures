@@ -2,7 +2,7 @@
 
 '''
 Title: High Score Tracker
-Author: Brian Hager
+Author: Beatrix Bicomong
 Date: April 12, 2022
 '''
 
