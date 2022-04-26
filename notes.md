@@ -75,7 +75,6 @@ FILE = open("filename.ext", "w")
 FILE.write(TEXT)
 FILE.close()
 ```
-
 ### Deleting a File
 To delete content within a file, overwrite the content with a blank string.
 
@@ -90,3 +89,52 @@ To delete a file, python requires access to the operating system to ensure appro
 import os
 os.remove("filename.ext")
 ```
+## SQLITE in Python 3
+
+SQLite is a library that a small, flash, self-containing, full-features, SQL database engine. __SQL__ stands for Structured Query Language and is often pronounced _sequel_, making SQLite pronounced as "SQ-Lite" or "sequel lite". While many structures of the query language are similar, there are slight deviations between SQL, SQLite, and other database structures.
+
+Databases create, update, store, and manage data. A database can also summarize the data for reporting as information. Information is the _interpretation_ of data for a specific stakeholder.
+
+Databases use _transactions_ to manipulate information. A transaction is a group of tasks that manipluates data and /or retrives information.
+
+Data provide several advantages over traditional text or spreadsheet files to store data:
+1. __Concurrency__ where multiple entities can interact with the data at once. Entities in this case can be users, computer programs, or other databases. An _integrated database_ can have multiple applications accessing the same database.
+2. __Atomicity__ is the property that states that a transaction preforms all tasks to complete the transaction, or it reverts so that no tasks are completed within the transaction. 
+3. __Consistency__ is where transactions cannot fundamentally change the the strucuture of the database (i.e. There is a set of number of columns with specific data in the columns and a transaction cannot change that structure)
+4. __Isolation__ is where multiple transactions can occur in parallel, but to not affect each other.
+5. __Durability__ is where the data stored in the database can survive system failures.
+
+All these charactistics contribute to data integrity be ensuring _data validation_ and _verification_ with each transaction.
+
+Databased often use a system to manage them (_A database management system (DBMS)_)
+
+## Setup SQLite in Python3
+```python
+import sqlite3
+
+FILENAME = "databaseName.db"
+
+# Connect to database. If it doesn't exist, this will create
+# the file
+CONNECTION = sqlite3.connect(FILENAME)
+
+# Cursor is the object that executes the SQL commands
+CURSOR = CONNECTION.cursor()
+```
+### Create a table in SQLite
+```python
+CURSOR.execute('''
+    CREATE TABLE student(
+        id INTEGER PRIMARY KEY,
+        first_name TEXT NOT NULL,
+        last_name TEXT NOT NULL,
+        email TEXT
+    )
+;''')
+```
+Tables need a __primary key_, which is the unique identifier of each row of data. Each table can only have one primary key and no two can share the same primary key. Each colummn must identify the data type that will appear in that particular column (INTERGER, TEXT, REAL, NUMERIC, BLOB [binary large object... a long binary string])
+
+NOT NULL is a column property that indicates a cell cannot be left blank.
+
+NOTE: Tables within the same database cannot have the same name.
+
