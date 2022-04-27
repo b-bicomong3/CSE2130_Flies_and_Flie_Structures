@@ -138,3 +138,41 @@ NOT NULL is a column property that indicates a cell cannot be left blank.
 
 NOTE: Tables within the same database cannot have the same name.
 
+### Inserting data into an SQLite table with Python variables
+```python
+INFO = ("Beatrix", "Bicomong", "b.bicomong@share.epsb.ca")
+
+CURSOR.execute('''
+    INSERT INTO
+        student(
+            first_name,
+            last_name,
+            email
+        )
+    VALUES(
+        ?, ?, ?
+        )
+;''', INFO)
+```
+### Read data in a table
+```python
+# output the first matched row
+FIRST_MATCH - CURSOR.execute('''
+    SELECT
+        *
+    FROM
+        student
+;''').fetchone()
+
+print(FIRST_MATCH) # (1, "Beatrix", "Bicomong", "b.bicomong@share.epsb.ca")
+
+# output all matches for the search query
+ALL_MATCHES = CURSOR.execute('''
+    SELECT
+        *  
+    FROM
+        student
+;''').fetchall()
+
+print(ALL_MATCHES) #[(1. "Beatrix", "Bicomong", "b.bicomong@share.epsb.ca"), (...), (...)]
+```
