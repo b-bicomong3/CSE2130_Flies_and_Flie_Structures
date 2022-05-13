@@ -420,16 +420,16 @@ South,1984,1985,2,15,Elk,0,24,63,0,0,22,109,10,0,0,120,,Aerial
 South,1984,1985,2,15,Moose,4,27,31,0,0,26,88,10,0,0,98,,Aerial
 North,1985,1986,3,25,Bison,340,117,0,0,0,0,457,7,0,NA,488,,Aerial
 South,1985,1986,1,30,Bison,12,52,0,0,0,0,64,10,162,NA,232,,Aerial
-North,1985,1986,3,25,Elk,479,52,34,0,0,0,565,13,NA,11,649," 11 elk were removed from park before survey (6 were shipped out, 5 mortalities) ",Aerial
-North,1985,1986,3,25,Moose,109,13,71,0,0,61,254,10,0,0,286,"Due to shortage of fuel, every other transect was flown in the southern half of the Main Park Area.  The sightability correction factor was doubled for the southern half (20%), while the northern half of the Main Park Area was 10%.",Aerial
+North,1985,1986,3,25,Elk,479,52,34,0,0,0,565,13,NA,11,649," 11 elk were removed from park before survey (6 were shipped out 5 mortalities) ",Aerial
+North,1985,1986,3,25,Moose,109,13,71,0,0,61,254,10,0,0,286,"Due to shortage of fuel every other transect was flown in the southern half of the Main Park Area.  The sightability correction factor was doubled for the southern half (20%); while the northern half of the Main Park Area was 10%.",Aerial
 South,1985,1986,1,30,Moose,52,12,36,0,0,27,127,10,0,0,140,,Aerial
 North,1985,1986,3,25,Deer,95,0,0,0,0,0,95,34,0,NA,121,25% was sightabilty correction factor in first half of the survey and 50% in second half of survey applied due to flight pattern,Aerial
 South,1985,1986,1,30,Deer,101,0,0,0,0,0,101,50,0,NA,152,White-tailed deer,Aerial
 South,1985,1986,1,30,Elk,119,14,16,0,0,1,150,10,0,NA,165,,Aerial
-North,1986,1987,2,23,Elk,130,136,278,0,0,104,648,22,41,8,840,"before survey 6 mortalities were found and 2 elk were shipped out of EINP; during survey, 41 elk were held at Mud lake facility",Aerial
+North,1986,1987,2,23,Elk,130,136,278,0,0,104,648,22,41,8,840,"before survey 6 mortalities were found and 2 elk were shipped out of EINP during survey 41 elk were held at Mud lake facility",Aerial
 North,1986,1987,2,23,Bison,7,78,2,0,0,0,87,19,412,9,525,before survey 7 mortalities occured and 2 plains bison were shipped out,Aerial
 North,1986,1987,2,23,Moose,55,41,85,0,0,77,258,22,0,36,351,,Aerial
-North,1986,1987,2,23,Deer,64,0,2,0,4,0,70,39,0,1,98,"very poor aerial survey conditions for deer, sightabilty correction factor could have been higher; 1 mortality occurred before survey",Aerial
+North,1986,1987,2,23,Deer,64,0,2,0,4,0,70,39,0,1,98,"very poor aerial survey conditions for deer sightabilty correction factor could have been higher 1 mortality occurred before survey",Aerial
 South,1986,1986,12,5,Bison,0,46,12,0,0,4,62,11,160,0,229,,Aerial
 South,1986,1986,12,5,Moose,9,47,79,0,0,53,188,20,0,0,226,,Aerial
 South,1986,1986,12,5,Deer,23,28,49,0,0,7,107,33,0,NA,142,,Aerial
@@ -437,9 +437,9 @@ South,1986,1986,12,5,Elk,11,54,97,0,1,21,184,22,0,NA,224,,Aerial
 North,1987,1988,3,29,Elk,562,58,35,0,7,0,662,28,NA,112,959,,Aerial
 South,1987,1988,2,8,Bison,1,30,10,0,0,0,41,17,224,0,272,,Aerial
 North,1987,1988,3,29,Bison,327,66,7,0,0,15,415,5,0,6,442, 6 plains bison mortalities occurred before survey,Aerial
-North,1987,1988,3,29,Moose,68,37,38,0,0,16,159,32,0,38,248,"before aerial survey 24 moose were trapped and removed, and had 14 moose mortalities",Aerial
+North,1987,1988,3,29,Moose,68,37,38,0,0,16,159,32,0,38,248,"before aerial survey 24 moose were trapped and removed; and had 14 moose mortalities",Aerial
 South,1987,1988,2,8,Moose,19,13,49,0,0,20,101,21,0,23,145,5 moose mortalities and 18 moose left park using jumprails,Aerial
-North,1987,1988,3,29,Deer,102,8,1,0,0,1,112,44,0,6,167,"47 white tailed deer, 71 mule deer total; 6 known mortalities before survey",Aerial
+North,1987,1988,3,29,Deer,102,8,1,0,0,1,112,44,0,6,167,"47 white tailed deer; 71 mule deer total; 6 known mortalities before survey",Aerial
 South,1987,1988,2,8,Deer,66,0,2,0,0,1,69,45,0,0,100,,Aerial
 South,1987,1988,2,8,Elk,18,74,135,0,0,37,264,19,0,16,330,1 elk mortality and 15 elk used jumprails prior to survey ,Aerial
 North,1988,1989,2,14,Elk,259,130,200,0,25,99,713,18,NA,43,884,Before survey 43 elk were removed from the park (incldues 2 mortalities and 41 shipped out),Aerial
@@ -474,7 +474,7 @@ South,1991,1991,11,28,Moose,4,29,57,0,2,41,133,10,0,0,146,,Aerial
 South,1991,1991,11,28,Deer,81,15,7,0,0,0,103,50,0,NA,154,,Aerial
 North,1991,1992,1,31,Deer,60,2,12,0,0,4,78,50,0,NA,117,White-tailed deer,Aerial
 South,1991,1991,11,28,Elk,1,98,192,0,3,114,408,7.5,0,0,479,,Aerial
-North,1992,1993,2,20,Elk,10,200,267,299,0,204,980,7,76,3,1126," 76 elk were in traps for removal from the park after the survey, 3 mortalities were recorded",Aerial
+North,1992,1993,2,20,Elk,10,200,267,299,0,204,980,7,76,3,1126," 76 elk were in traps for removal from the park after the survey; 3 mortalities were recorded",Aerial
 North,1992,1993,2,20,Bison,0,90,3,5,0,2,100,5,628,NA,733,,Aerial
 North,1992,1993,2,20,Moose,80,39,71,0,0,40,230,18,0,0,271,,Aerial
 North,1992,1993,2,20,Deer,179,0,4,0,0,3,186,50,0,0,279,White-tailed deer,Aerial
@@ -516,9 +516,9 @@ North,1996,1996,11,29,Deer,43,30,31,0,0,1,105,40,0,NA,147,,Aerial
 South,1996,1996,12,18,Elk,33,139,203,0,0,119,494,10,25,NA,568,,Aerial
 North,1997,1998,2,13,Elk,101,151,496,0,7,225,980,10,91,NA,1169,,Aerial
 North,1997,1998,2,13,Moose,89,26,57,0,2,45,219,18,0,0,258,,Aerial
-South,1997,1998,2,11,Moose,9,5,34,0,0,25,73,18,0,0,86,"moose adult male count is not accurate, some adult females were counted as males. ",Aerial
+South,1997,1998,2,11,Moose,9,5,34,0,0,25,73,18,0,0,86,"moose adult male count is not accurate; some adult females were counted as males. ",Aerial
 North,1997,1998,2,13,Bison,3,60,0,0,0,0,63,5,559,NA,625,,Aerial
-South,1997,1998,2,11,Bison,NA,NA,NA,NA,NA,NA,NA,NA,428,0,428,"Wood bison were not counted in survey as they were handled before survey, handling resulted in 373 wood bison plus an estimated 55 free roaming in the park ",Handling
+South,1997,1998,2,11,Bison,NA,NA,NA,NA,NA,NA,NA,NA,428,0,428,"Wood bison were not counted in survey as they were handled before survey; handling resulted in 373 wood bison plus an estimated 55 free roaming in the park ",Handling
 South,1997,1998,2,11,Deer,32,0,0,0,0,0,32,40,0,0,45,,Aerial
 North,1997,1998,2,13,Deer,84,0,1,0,0,1,86,40,0,NA,120,,Aerial
 South,1997,1998,2,11,Elk,2,86,236,0,0,82,406,10,55,0,502,,Aerial
@@ -644,7 +644,7 @@ South,2012,2013,3,4,Deer,14,0,0,0,0,0,14,40,0,NA,20,,Aerial
 South,2012,2013,3,4,Elk,100,0,0,0,0,0,100,10,NA,59,169,59 elk trapped in South Aera,Aerial
 North,2013,2013,11,29,Elk,65,93,164,0,0,3,325,10,0,0,358,,Aerial
 North,2013,2013,11,29,Moose,0,20,17,0,0,0,37,15,0,0,43,,Aerial
-North,2013,2013,11,29,Bison,713,3,0,0,0,68,784,0,0,0,784,"North area was flown over two days. Overestimation of bison may have occurred, no sightabilty correction factor applied. ",Aerial
+North,2013,2013,11,29,Bison,713,3,0,0,0,68,784,0,0,0,784,"North area was flown over two days. Overestimation of bison may have occurred; no sightabilty correction factor applied. ",Aerial
 North,2013,2013,11,29,Deer,4,4,34,0,0,0,42,40,0,0,59,,Aerial
 South,2013,2013,11,29,Moose,10,53,99,0,0,19,181,15,0,0,208,,Aerial
 South,2013,2013,11,30,Bison,354,1,0,0,0,22,377,5,0,0,396,,Aerial
