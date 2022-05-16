@@ -353,7 +353,7 @@ def animalMult(START, END):
         elif CHOICE == 2:
             return addDataAsk()
 
-    return YEAR_START_N, YEAR_END_N, YEAR_START_S, YEAR_END_S
+    return YEAR_START_N, YEAR_END_N, YEAR_START_S, YEAR_END_S, START, END
 
 def addDataAsk():
     """adds inputted data from user into database by selecting through the growth population option
